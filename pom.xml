@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.Backend</groupId>
-	<artifactId>clase23</artifactId>
+	<artifactId>api-odonttologos</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>api-odonttologos</name>
+	<name>api-odontologos</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>19</java.version>
