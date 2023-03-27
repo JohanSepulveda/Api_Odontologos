@@ -1,0 +1,227 @@
+[2022-11-11 14:40:53] [ INFO ] [OdontologoDaoH2:58] Iniciando la busqueda de un odontologo con id: 1
+[2022-11-14 16:32:07] [ INFO ] [PacienteDAOH2:60] Iniciando la búsqueda del paciente con id=1
+[2022-11-14 16:32:07] [ INFO ] [DomicilioDAOH2:52] Iniciando una operación de búsqueda de un domicilio con id=1
+[2022-11-14 16:41:28] [ INFO ] [PacienteDAOH2:60] Iniciando la búsqueda del paciente con id=3
+[2022-11-14 16:44:12] [ INFO ] [PacienteDAOH2:60] Iniciando la búsqueda del paciente con id=3
+[2022-11-14 16:56:39] [ INFO ] [PacienteDAOH2:150] Iniciando la búsqueda de todos los pacientes
+[2022-11-14 16:56:39] [ INFO ] [DomicilioDAOH2:52] Iniciando una operación de búsqueda de un domicilio con id=1
+[2022-11-14 16:56:39] [ INFO ] [DomicilioDAOH2:52] Iniciando una operación de búsqueda de un domicilio con id=2
+[2022-11-16 15:17:25] [ INFO ] [OdontologoDaoH2:58] Iniciando la busqueda de un odontologo con id: 1
+[2022-11-16 15:17:25] [ INFO ] [PacienteDAOH2:60] Iniciando la búsqueda del paciente con id=1
+[2022-11-16 15:17:25] [ INFO ] [DomicilioDAOH2:52] Iniciando una operación de búsqueda de un domicilio con id=1
+[2022-11-16 15:22:54] [ INFO ] [OdontologoDaoH2:58] Iniciando la busqueda de un odontologo con id: 1
+[2022-11-16 15:22:54] [ INFO ] [PacienteDAOH2:60] Iniciando la búsqueda del paciente con id=1
+[2022-11-16 15:22:54] [ INFO ] [DomicilioDAOH2:52] Iniciando una operación de búsqueda de un domicilio con id=1
+[2022-11-16 18:18:27] [ INFO ] [OdontologoDaoH2:162] Mostrando los odontologos resgistrados
+[2022-11-16 18:19:19] [ INFO ] [OdontologoDaoH2:162] Mostrando los odontologos resgistrados
+[2022-11-16 18:24:27] [ INFO ] [OdontologoDaoH2:162] Mostrando los odontologos resgistrados
+[2022-11-16 18:30:07] [ INFO ] [OdontologoDaoH2:162] Mostrando los odontologos resgistrados
+[2022-11-16 18:30:22] [ INFO ] [OdontologoDaoH2:58] Iniciando la busqueda de un odontologo con id: 2
+[2022-11-16 18:30:26] [ INFO ] [OdontologoDaoH2:58] Iniciando la busqueda de un odontologo con id: 2
+[2022-11-16 18:31:10] [ INFO ] [OdontologoDaoH2:162] Mostrando los odontologos resgistrados
+[2022-11-16 18:38:29] [ INFO ] [OdontologoDaoH2:162] Mostrando los odontologos resgistrados
+[2022-11-17 14:54:13] [ INFO ] [OdontologoDaoH2:162] Mostrando los odontologos resgistrados
+[2022-11-17 14:55:10] [ INFO ] [OdontologoDaoH2:25] Iniciando el guardado de un odontologo
+[2022-11-17 14:55:22] [ INFO ] [OdontologoDaoH2:162] Mostrando los odontologos resgistrados
+[2022-11-17 15:04:12] [ INFO ] [OdontologoDaoH2:162] Mostrando los odontologos resgistrados
+[2022-11-17 15:04:43] [ INFO ] [OdontologoDaoH2:162] Mostrando los odontologos resgistrados
+[2022-11-17 15:05:07] [ INFO ] [OdontologoDaoH2:162] Mostrando los odontologos resgistrados
+[2022-11-17 15:07:38] [ INFO ] [OdontologoDaoH2:162] Mostrando los odontologos resgistrados
+[2022-11-17 15:15:11] [ INFO ] [OdontologoDaoH2:162] Mostrando los odontologos resgistrados
+[2022-11-17 15:20:19] [ INFO ] [OdontologoDaoH2:162] Mostrando los odontologos resgistrados
+[2022-11-17 15:20:53] [ INFO ] [OdontologoDaoH2:25] Iniciando el guardado de un odontologo
+[2022-11-17 15:20:59] [ INFO ] [OdontologoDaoH2:162] Mostrando los odontologos resgistrados
+[2022-11-18 11:10:06] [ INFO ] [OdontologoDaoH2:25] Iniciando el guardado de un odontologo
+[2022-11-18 12:26:22] [ INFO ] [OdontologoDaoH2:26] Iniciando el guardado de un odontologo
+[2022-11-21 22:33:29] [ INFO ] [OdontologoDaoH2:26] Iniciando el guardado de un odontologo
+[2022-11-21 22:40:38] [ INFO ] [OdontologoDaoH2:26] Iniciando el guardado de un odontologo
+[2022-11-21 22:49:56] [ INFO ] [OdontologoDaoH2:163] Mostrando los odontologos resgistrados
+[2022-11-21 23:11:50] [ INFO ] [OdontologoDaoH2:26] Iniciando el guardado de un odontologo
+[2022-12-10 00:10:31] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-10 00:10:33] [ INFO ] [OdontologoService:47] Mostrando los odontologos resgistrados
+[2022-12-10 00:10:36] [ INFO ] [OdontologoService:32] Iniciando la busqueda de un odontologo con id: 1
+[2022-12-10 00:10:58] [ INFO ] [PacienteService:51] Se ha buscado un paciente con correo: s@gmail.com
+[2022-12-10 00:10:58] [ INFO ] [PacienteService:25] Se ha guardado un paciente
+[2022-12-10 00:11:08] [ INFO ] [PacienteService:46] Mostrando los pacientes registrados
+[2022-12-10 00:11:20] [ INFO ] [OdontologoService:32] Iniciando la busqueda de un odontologo con id: 1
+[2022-12-10 00:11:20] [ INFO ] [PacienteService:29] Iniciando la búsqueda del paciente con id=1
+[2022-12-10 00:11:20] [ INFO ] [TurnoService:64] Se ha guardado un turno
+[2022-12-10 00:11:23] [ INFO ] [TurnoService:29] Mostrando los turnos resgistrados
+[2022-12-10 00:12:34] [ WARN ] [TurnoService:51] Se ha eliminado el turno con id 1
+[2022-12-10 00:12:34] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-10 00:12:36] [ INFO ] [PacienteService:46] Mostrando los pacientes registrados
+[2022-12-10 00:12:39] [ WARN ] [PacienteService:33] Se ha eliminado el paciente con id=1
+[2022-12-10 00:12:39] [ INFO ] [PacienteService:29] Iniciando la búsqueda del paciente con id=1
+[2022-12-10 00:12:41] [ INFO ] [OdontologoService:47] Mostrando los odontologos resgistrados
+[2022-12-10 00:12:43] [ WARN ] [OdontologoService:38] Se ha eliminado el odontologo con id: 1
+[2022-12-10 00:12:43] [ INFO ] [OdontologoService:32] Iniciando la busqueda de un odontologo con id: 1
+[2022-12-10 00:13:02] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-10 00:13:50] [ INFO ] [PacienteService:51] Se ha buscado un paciente con correo: test@gmail.com
+[2022-12-10 00:13:50] [ INFO ] [PacienteService:25] Se ha guardado un paciente
+[2022-12-10 00:14:03] [ INFO ] [OdontologoService:32] Iniciando la busqueda de un odontologo con id: 2
+[2022-12-10 00:14:03] [ INFO ] [PacienteService:29] Iniciando la búsqueda del paciente con id=2
+[2022-12-10 00:14:03] [ INFO ] [TurnoService:64] Se ha guardado un turno
+[2022-12-10 00:15:30] [ INFO ] [TurnoService:29] Mostrando los turnos resgistrados
+[2022-12-10 00:15:49] [ INFO ] [PacienteService:51] Se ha buscado un paciente con correo: test@gmail.com
+[2022-12-10 00:16:01] [ INFO ] [TurnoService:29] Mostrando los turnos resgistrados
+[2022-12-10 00:17:32] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-10 00:17:32] [ INFO ] [OdontologoService:32] Iniciando la busqueda de un odontologo con id: 1
+[2022-12-10 00:17:32] [ INFO ] [OdontologoService:35] Iniciando la actualización del paciente con id=1
+[2022-12-10 00:17:32] [ INFO ] [OdontologoService:32] Iniciando la busqueda de un odontologo con id: 1
+[2022-12-10 00:17:32] [ INFO ] [OdontologoService:47] Mostrando los odontologos resgistrados
+[2022-12-10 00:17:32] [ WARN ] [OdontologoService:38] Se ha eliminado el odontologo con id: 1
+[2022-12-10 00:17:32] [ INFO ] [OdontologoService:32] Iniciando la busqueda de un odontologo con id: 1
+[2022-12-10 00:17:32] [ INFO ] [OdontologoService:32] Iniciando la busqueda de un odontologo con id: 1
+[2022-12-10 00:22:12] [ INFO ] [TurnoService:29] Mostrando los turnos resgistrados
+[2022-12-10 00:22:12] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-10 00:22:13] [ WARN ] [TurnoService:51] Se ha eliminado el turno con id 1
+[2022-12-10 00:22:13] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-10 00:23:56] [ INFO ] [PacienteService:25] Se ha guardado un paciente
+[2022-12-10 00:23:56] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-10 00:23:56] [ INFO ] [TurnoService:64] Se ha guardado un turno
+[2022-12-10 00:23:56] [ INFO ] [TurnoService:29] Mostrando los turnos resgistrados
+[2022-12-10 00:23:56] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-10 00:23:56] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-10 00:23:56] [ INFO ] [TurnoService:60] Se ha actualizado un turno
+[2022-12-10 00:23:56] [ WARN ] [TurnoService:51] Se ha eliminado el turno con id 1
+[2022-12-10 00:23:56] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-10 00:23:56] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-10 00:26:56] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-10 00:26:56] [ INFO ] [TurnoService:60] Se ha actualizado un turno
+[2022-12-10 00:31:13] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-10 00:31:13] [ INFO ] [TurnoService:60] Se ha actualizado un turno
+[2022-12-10 00:31:14] [ WARN ] [TurnoService:51] Se ha eliminado el turno con id 1
+[2022-12-10 00:31:14] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-10 00:31:57] [ INFO ] [PacienteService:25] Se ha guardado un paciente
+[2022-12-10 00:31:57] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-10 00:31:57] [ INFO ] [TurnoService:64] Se ha guardado un turno
+[2022-12-10 00:31:57] [ INFO ] [TurnoService:29] Mostrando los turnos resgistrados
+[2022-12-10 00:31:58] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-10 00:31:58] [ INFO ] [TurnoService:60] Se ha actualizado un turno
+[2022-12-10 00:31:58] [ WARN ] [TurnoService:51] Se ha eliminado el turno con id 1
+[2022-12-10 00:31:58] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-10 00:31:58] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-10 00:40:29] [ INFO ] [PacienteService:25] Se ha guardado un paciente
+[2022-12-10 00:40:29] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-10 00:40:29] [ INFO ] [TurnoService:64] Se ha guardado un turno
+[2022-12-10 00:40:29] [ INFO ] [TurnoService:29] Mostrando los turnos resgistrados
+[2022-12-10 00:40:29] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-10 00:40:29] [ INFO ] [TurnoService:60] Se ha actualizado un turno
+[2022-12-10 00:40:30] [ WARN ] [TurnoService:51] Se ha eliminado el turno con id 1
+[2022-12-10 00:40:30] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-10 00:40:30] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-10 00:47:23] [ INFO ] [PacienteService:25] Se ha guardado un paciente
+[2022-12-10 00:47:23] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-10 00:47:23] [ INFO ] [TurnoService:64] Se ha guardado un turno
+[2022-12-10 00:47:23] [ INFO ] [TurnoService:29] Mostrando los turnos resgistrados
+[2022-12-10 00:47:23] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-10 00:47:23] [ INFO ] [PacienteService:25] Se ha guardado un paciente
+[2022-12-10 00:47:23] [ WARN ] [TurnoService:51] Se ha eliminado el turno con id 1
+[2022-12-10 00:47:23] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-10 00:47:23] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-10 00:48:52] [ INFO ] [PacienteService:25] Se ha guardado un paciente
+[2022-12-10 00:48:52] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-10 00:48:52] [ INFO ] [TurnoService:64] Se ha guardado un turno
+[2022-12-10 00:48:52] [ INFO ] [TurnoService:29] Mostrando los turnos resgistrados
+[2022-12-10 00:48:53] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-10 00:48:53] [ INFO ] [PacienteService:25] Se ha guardado un paciente
+[2022-12-10 00:48:53] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-10 00:48:53] [ INFO ] [TurnoService:64] Se ha guardado un turno
+[2022-12-10 00:48:53] [ INFO ] [TurnoService:60] Se ha actualizado un turno
+[2022-12-10 00:48:53] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-10 00:48:53] [ WARN ] [TurnoService:51] Se ha eliminado el turno con id 1
+[2022-12-10 00:48:53] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-10 00:48:53] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-12 13:58:49] [ INFO ] [PacienteService:25] Se ha guardado un paciente
+[2022-12-12 13:58:49] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-12 13:58:49] [ INFO ] [TurnoService:64] Se ha guardado un turno
+[2022-12-12 13:58:49] [ INFO ] [TurnoService:29] Mostrando los turnos resgistrados
+[2022-12-12 13:58:50] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-12 13:58:50] [ INFO ] [PacienteService:25] Se ha guardado un paciente
+[2022-12-12 13:58:50] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-12 13:58:50] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-12 13:58:50] [ INFO ] [TurnoService:64] Se ha guardado un turno
+[2022-12-12 13:58:50] [ INFO ] [TurnoService:60] Se ha actualizado un turno
+[2022-12-12 13:58:50] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-12 13:58:50] [ WARN ] [TurnoService:51] Se ha eliminado el turno con id 1
+[2022-12-12 13:58:50] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-12 13:58:50] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-12 14:02:39] [ INFO ] [PacienteService:25] Se ha guardado un paciente
+[2022-12-12 14:02:39] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-12 14:02:39] [ INFO ] [TurnoService:64] Se ha guardado un turno
+[2022-12-12 14:02:39] [ INFO ] [TurnoService:29] Mostrando los turnos resgistrados
+[2022-12-12 14:02:40] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-12 14:02:40] [ INFO ] [PacienteService:25] Se ha guardado un paciente
+[2022-12-12 14:02:40] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-12 14:02:40] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-12 14:02:40] [ INFO ] [TurnoService:64] Se ha guardado un turno
+[2022-12-12 14:02:40] [ INFO ] [TurnoService:60] Se ha actualizado un turno
+[2022-12-12 14:02:40] [ WARN ] [TurnoService:51] Se ha eliminado el turno con id 1
+[2022-12-12 14:02:40] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-12 14:02:40] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-12 14:12:01] [ INFO ] [PacienteService:25] Se ha guardado un paciente
+[2022-12-12 14:12:01] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-12 14:12:01] [ INFO ] [TurnoService:64] Se ha guardado un turno
+[2022-12-12 14:12:01] [ INFO ] [TurnoService:29] Mostrando los turnos resgistrados
+[2022-12-12 14:12:01] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-12 14:12:01] [ INFO ] [PacienteService:25] Se ha guardado un paciente
+[2022-12-12 14:12:01] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-12 14:12:01] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-12 14:12:01] [ INFO ] [TurnoService:64] Se ha guardado un turno
+[2022-12-12 14:12:01] [ INFO ] [TurnoService:60] Se ha actualizado un turno
+[2022-12-12 14:12:01] [ WARN ] [TurnoService:51] Se ha eliminado el turno con id 1
+[2022-12-12 14:12:01] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-12 14:12:01] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-12 14:28:04] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-12 14:28:07] [ INFO ] [OdontologoService:47] Mostrando los odontologos resgistrados
+[2022-12-12 14:28:09] [ INFO ] [OdontologoService:32] Iniciando la busqueda de un odontologo con id: 1
+[2022-12-12 14:28:11] [ INFO ] [OdontologoService:32] Iniciando la busqueda de un odontologo con id: 1
+[2022-12-12 14:28:26] [ INFO ] [PacienteService:51] Se ha buscado un paciente con correo: test@gmail.com
+[2022-12-12 14:28:26] [ INFO ] [PacienteService:25] Se ha guardado un paciente
+[2022-12-12 14:28:29] [ INFO ] [PacienteService:46] Mostrando los pacientes registrados
+[2022-12-12 14:28:35] [ INFO ] [PacienteService:29] Iniciando la búsqueda del paciente con id=1
+[2022-12-12 14:28:35] [ INFO ] [PacienteService:29] Iniciando la búsqueda del paciente con id=1
+[2022-12-12 14:28:46] [ INFO ] [PacienteService:29] Iniciando la búsqueda del paciente con id=1
+[2022-12-12 14:28:46] [ INFO ] [PacienteService:42] Iniciando la actualización del paciente con id=1
+[2022-12-12 14:28:47] [ INFO ] [PacienteService:46] Mostrando los pacientes registrados
+[2022-12-12 14:29:01] [ INFO ] [OdontologoService:32] Iniciando la busqueda de un odontologo con id: 1
+[2022-12-12 14:29:01] [ INFO ] [PacienteService:29] Iniciando la búsqueda del paciente con id=1
+[2022-12-12 14:29:01] [ INFO ] [TurnoService:64] Se ha guardado un turno
+[2022-12-12 14:29:04] [ INFO ] [TurnoService:29] Mostrando los turnos resgistrados
+[2022-12-12 14:29:05] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-12 14:29:23] [ WARN ] [TurnoService:51] Se ha eliminado el turno con id 1
+[2022-12-12 14:29:23] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-12 14:32:32] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-12 14:32:33] [ INFO ] [OdontologoService:47] Mostrando los odontologos resgistrados
+[2022-12-12 14:32:35] [ INFO ] [OdontologoService:32] Iniciando la busqueda de un odontologo con id: 1
+[2022-12-12 14:32:36] [ INFO ] [OdontologoService:32] Iniciando la busqueda de un odontologo con id: 1
+[2022-12-12 14:32:37] [ INFO ] [OdontologoService:32] Iniciando la busqueda de un odontologo con id: 1
+[2022-12-12 14:32:52] [ INFO ] [PacienteService:51] Se ha buscado un paciente con correo: test@gmail.com
+[2022-12-12 14:32:52] [ INFO ] [PacienteService:25] Se ha guardado un paciente
+[2022-12-12 14:33:05] [ INFO ] [OdontologoService:32] Iniciando la busqueda de un odontologo con id: 1
+[2022-12-12 14:33:05] [ INFO ] [PacienteService:29] Iniciando la búsqueda del paciente con id=1
+[2022-12-12 14:33:05] [ INFO ] [TurnoService:64] Se ha guardado un turno
+[2022-12-12 14:33:07] [ INFO ] [TurnoService:29] Mostrando los turnos resgistrados
+[2022-12-12 14:33:08] [ WARN ] [TurnoService:51] Se ha eliminado el turno con id 1
+[2022-12-12 14:33:08] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-12 14:33:10] [ INFO ] [PacienteService:46] Mostrando los pacientes registrados
+[2022-12-12 14:33:13] [ WARN ] [PacienteService:33] Se ha eliminado el paciente con id=1
+[2022-12-12 14:33:13] [ INFO ] [PacienteService:29] Iniciando la búsqueda del paciente con id=1
+[2022-12-12 14:33:16] [ INFO ] [OdontologoService:47] Mostrando los odontologos resgistrados
+[2022-12-12 14:33:18] [ WARN ] [OdontologoService:38] Se ha eliminado el odontologo con id: 1
+[2022-12-12 14:33:18] [ INFO ] [OdontologoService:32] Iniciando la busqueda de un odontologo con id: 1
+[2022-12-12 14:41:39] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-12 14:41:56] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2022-12-12 14:41:59] [ INFO ] [OdontologoService:47] Mostrando los odontologos resgistrados
+[2022-12-12 14:42:11] [ INFO ] [PacienteService:51] Se ha buscado un paciente con correo: s@gmail.com
+[2022-12-12 14:42:11] [ INFO ] [PacienteService:25] Se ha guardado un paciente
+[2022-12-12 14:42:18] [ INFO ] [PacienteService:46] Mostrando los pacientes registrados
+[2022-12-12 14:42:37] [ INFO ] [OdontologoService:32] Iniciando la busqueda de un odontologo con id: 1
+[2022-12-12 14:42:37] [ INFO ] [PacienteService:29] Iniciando la búsqueda del paciente con id=1
+[2022-12-12 14:42:37] [ INFO ] [TurnoService:64] Se ha guardado un turno
+[2022-12-12 14:42:39] [ INFO ] [TurnoService:29] Mostrando los turnos resgistrados
+[2022-12-12 14:42:52] [ WARN ] [TurnoService:51] Se ha eliminado el turno con id 1
+[2022-12-12 14:42:52] [ INFO ] [TurnoService:40] Iniciando la búsqueda del turno con id=1
+[2022-12-12 14:43:08] [ INFO ] [PacienteService:46] Mostrando los pacientes registrados
+[2022-12-12 14:43:10] [ INFO ] [OdontologoService:47] Mostrando los odontologos resgistrados
+[2022-12-12 14:43:50] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
