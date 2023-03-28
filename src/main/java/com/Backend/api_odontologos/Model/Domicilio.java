@@ -1,4 +1,4 @@
-package com.Backend.api_odontologos.model;
+package com.Backend.api_odontologos.Model;
 
 import javax.persistence.*;
 

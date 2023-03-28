@@ -1,9 +1,7 @@
-package com.Backend.api_odontologos.model;
+package com.Backend.api_odontologos.Model;
 
 import javax.persistence.*;
 import java.time.LocalDate;
-import java.util.HashSet;
-import java.util.Set;
 
 @Entity
 @Table(name = "turnos")
