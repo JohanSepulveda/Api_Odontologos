@@ -1,8 +1,8 @@
-package com.Backend.api_odontologos.Service;
+package com.Backend.apiOdontologos.Service;
 
-import com.Backend.api_odontologos.Exceptions.ResourceNotFoundException;
-import com.Backend.api_odontologos.Model.Odontologo;
-import com.Backend.api_odontologos.Repository.OdontologoRepository;
+import com.Backend.apiOdontologos.Exceptions.ResourceNotFoundException;
+import com.Backend.apiOdontologos.Model.Odontologo;
+import com.Backend.apiOdontologos.Repository.OdontologoRepository;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -29,12 +29,24 @@ public class OdontologoService {
         return odontologoRepository.save(odontologo);
     }
 
-    public Optional<Odontologo> buscarOdontologo(Long id){
+    public Optional<Odontologo> buscarOdontologo(Long id) throws ResourceNotFoundException{
         LOGGER.info("Iniciando la busqueda de un odontologo con id: " + id);
-        return odontologoRepository.findById(id);}
-    public void actualizarOdontologo(Odontologo odontologo){
+        Optional<Odontologo> odontologoABuscar = odontologoRepository.findById(id);
+        if(odontologoABuscar.isPresent()){
+            return odontologoABuscar;
+        }else{
+            throw new ResourceNotFoundException("El odontologo con id: " + id + " no existe.");
+        }
+       }
+    public void actualizarOdontologo(Odontologo odontologo) throws ResourceNotFoundException{
         LOGGER.info("Iniciando la actualización del paciente con id=" + odontologo.getId());
-        odontologoRepository.save(odontologo); }
+        Optional<Odontologo> odontologoABuscar = odontologoRepository.findById(odontologo.getId());
+        if(odontologoABuscar.isPresent()){
+            odontologoRepository.save(odontologo);
+        }else{
+            throw new ResourceNotFoundException("El odontologo con id: " + odontologo.getId() + " no existe. Por tanto no se puede actualizar");
+        }
+    }
     public void eliminarOdontologo(Long id) throws ResourceNotFoundException {
         LOGGER.warn("Se ha eliminado el odontologo con id: " + id);
         Optional<Odontologo> odontologoAEliminar = buscarOdontologo(id);

@@ -1,11 +1,11 @@
-package com.Backend.api_odontologos.Service;
+package com.Backend.apiOdontologos.Service;
 
-import com.Backend.api_odontologos.DTO.TurnoDto;
-import com.Backend.api_odontologos.Exceptions.ResourceNotFoundException;
-import com.Backend.api_odontologos.Model.Odontologo;
-import com.Backend.api_odontologos.Model.Paciente;
-import com.Backend.api_odontologos.Model.Turno;
-import com.Backend.api_odontologos.Repository.TurnoRepository;
+import com.Backend.apiOdontologos.DTO.TurnoDto;
+import com.Backend.apiOdontologos.Exceptions.ResourceNotFoundException;
+import com.Backend.apiOdontologos.Model.Odontologo;
+import com.Backend.apiOdontologos.Model.Paciente;
+import com.Backend.apiOdontologos.Model.Turno;
+import com.Backend.apiOdontologos.Repository.TurnoRepository;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +18,12 @@ import java.util.Optional;
 @Service
 public class TurnoService {
     private TurnoRepository turnoRepository;
+
+    @Autowired
+    private PacienteService pacienteService;
+
+    @Autowired
+    private OdontologoService odontologoService;
 
     Logger LOGGER = Logger.getLogger(TurnoService.class);
 
@@ -37,16 +43,14 @@ public class TurnoService {
         return respuesta ;
     }
 
-    public Optional<TurnoDto> buscarTurno(Long id){
+    public Optional<TurnoDto> buscarTurno(Long id) throws ResourceNotFoundException {
         LOGGER.info("Iniciando la búsqueda del turno con id="+id);
         Optional<Turno> turnoBuscado = turnoRepository.findById(id);
         if(turnoBuscado.isPresent()){
             return Optional.of(turnoADto(turnoBuscado.get()));
         } else{
-            return  Optional.empty();
-            // En caso de que no exista el turno, es nulo.
+            throw new ResourceNotFoundException("Error. No existe el ID= "+id+" asociado a un turno en la base de datos.");
         }
-
     }
     public void eliminarTurno(Long id) throws ResourceNotFoundException {
         LOGGER.warn("Se ha eliminado el turno con id " + id);
@@ -57,16 +61,30 @@ public class TurnoService {
             throw new ResourceNotFoundException("Error. No existe el ID= "+id+" asociado a un turno en la base de datos.");
         }
     }
-    public void actualizarTurno(TurnoDto turnoDto){
+    public void actualizarTurno(TurnoDto turnoDto) throws ResourceNotFoundException {
         LOGGER.info("Se ha actualizado un turno");
-        turnoRepository.save(dtoATurno(turnoDto));
+        Optional<TurnoDto> turnoBuscado = buscarTurno(turnoDto.getId());
+        if(turnoBuscado.isPresent()){
+            if(odontologoService.buscarOdontologo(turnoBuscado.get().getOdontologoId()).isPresent()
+                    &&pacienteService.buscarPaciente(turnoBuscado.get().getPacienteId()).isPresent()){
+                     turnoRepository.save(dtoATurno(turnoDto));}
+        } else {
+            throw new ResourceNotFoundException("Error. No existe el ID= "+turnoDto.getId()+" asociado a un turno en la base de datos.");
+        }
     }
-    public TurnoDto guardarTurno(TurnoDto turnoDto){
+    public TurnoDto guardarTurno(TurnoDto turnoDto) throws ResourceNotFoundException {
         LOGGER.info("Se ha guardado un turno");
         Turno turno = turnoRepository.save(dtoATurno(turnoDto));
+        if(odontologoService.buscarOdontologo(turno.getOdontologo().getId()).isPresent()
+                && pacienteService.buscarPaciente(turno.getPaciente().getId()).isPresent()){
         return turnoADto(turno);
+        } else{
+            throw new RuntimeException(".");
+        }
     }
 
+
+    //Transformación de a DTO
     private TurnoDto turnoADto(Turno turno){
         TurnoDto respuesta = new TurnoDto();
         respuesta.setId(turno.getId());

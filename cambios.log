@@ -225,3 +225,15 @@
 [2022-12-12 14:43:08] [ INFO ] [PacienteService:46] Mostrando los pacientes registrados
 [2022-12-12 14:43:10] [ INFO ] [OdontologoService:47] Mostrando los odontologos resgistrados
 [2022-12-12 14:43:50] [ INFO ] [OdontologoService:28] Se ha guardado un odontologo
+[2023-03-31 20:49:01] [ INFO ] [PacienteService:57] Mostrando los pacientes registrados
+[2023-03-31 20:49:17] [ INFO ] [OdontologoService:60] Mostrando los odontologos resgistrados
+[2023-03-31 20:57:05] [ INFO ] [TurnoService:76] Se ha guardado un turno
+[2023-03-31 20:57:10] [ INFO ] [TurnoService:36] Mostrando los turnos resgistrados
+[2023-03-31 20:58:58] [ INFO ] [OdontologoService:60] Mostrando los odontologos resgistrados
+[2023-03-31 20:59:45] [ INFO ] [OdontologoService:60] Mostrando los odontologos resgistrados
+[2023-03-31 22:17:42] [ INFO ] [TurnoService:36] Mostrando los turnos resgistrados
+[2023-03-31 22:18:01] [ INFO ] [OdontologoService:60] Mostrando los odontologos resgistrados
+[2023-03-31 22:18:03] [ INFO ] [PacienteService:57] Mostrando los pacientes registrados
+[2023-03-31 22:19:17] [ INFO ] [PacienteService:57] Mostrando los pacientes registrados
+[2023-03-31 22:21:10] [ INFO ] [TurnoService:36] Mostrando los turnos resgistrados
+[2023-03-31 22:21:12] [ INFO ] [OdontologoService:60] Mostrando los odontologos resgistrados

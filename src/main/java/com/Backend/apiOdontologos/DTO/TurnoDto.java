@@ -1,4 +1,4 @@
-package com.Backend.api_odontologos.DTO;
+package com.Backend.apiOdontologos.DTO;
 
 import java.time.LocalDate;
 

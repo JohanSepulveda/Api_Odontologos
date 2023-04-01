@@ -15,7 +15,7 @@ window.addEventListener('load', function () {
       for(odontologo of data){
 
             var table = document.getElementById("odontologoTable");
-            var odontologoRow =table.insertRow();
+            var odontologoRow = table.insertRow();
             let tr_id = 'tr_' + odontologo.id;
             odontologoRow.id = tr_id;
 

@@ -1,13 +1,13 @@
-package com.Backend.clase23;
+package com.Backend.apiOdontologos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class IntegradorApplication {
+public class ApiOdontologosApplication {
 
 	public static void main(String[] args) throws Exception {
-		SpringApplication.run(IntegradorApplication.class, args);
+		SpringApplication.run(com.Backend.apiOdontologos.ApiOdontologosApplication.class, args);
 	}
 
 

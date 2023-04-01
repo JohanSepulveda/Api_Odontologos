@@ -1,8 +1,8 @@
-package com.Backend.api_odontologos.Service;
+package com.Backend.apiOdontologos.Service;
 
-import com.Backend.api_odontologos.Exceptions.ResourceNotFoundException;
-import com.Backend.api_odontologos.Model.Paciente;
-import com.Backend.api_odontologos.Repository.PacienteRepository;
+import com.Backend.apiOdontologos.Exceptions.ResourceNotFoundException;
+import com.Backend.apiOdontologos.Model.Paciente;
+import com.Backend.apiOdontologos.Repository.PacienteRepository;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -25,9 +25,14 @@ public class PacienteService {
         LOGGER.info("Se ha guardado un paciente");
         return pacienteRepository.save(paciente);
     }
-    public Optional<Paciente> buscarPaciente(Long id){
+    public Optional<Paciente> buscarPaciente(Long id) throws ResourceNotFoundException {
         LOGGER.info("Iniciando la búsqueda del paciente con id="+id);
-        return pacienteRepository.findById(id);
+        Optional<Paciente> pacienteABuscar = pacienteRepository.findById(id);
+        if(pacienteABuscar.isPresent()){
+           return pacienteABuscar;}
+        else {
+            throw new ResourceNotFoundException("Error. No existe el ID= "+id+" asociado a un paciente en la base de datos.");
+        }
     }
     public void eliminarPaciente(Long id) throws ResourceNotFoundException {
         LOGGER.warn("Se ha eliminado el paciente con id="+id);
@@ -38,18 +43,29 @@ public class PacienteService {
             throw new ResourceNotFoundException("Error. No existe el ID= "+id+" asociado a un paciente en la base de datos.");
         }
     }
-    public void actualizarPaciente(Paciente paciente){
+    public void actualizarPaciente(Paciente paciente) throws ResourceNotFoundException {
         LOGGER.info("Iniciando la actualización del paciente con id="+paciente.getId());
-        pacienteRepository.save(paciente);
+        Optional<Paciente> pacienteABuscar = buscarPaciente(paciente.getId());
+        if(pacienteABuscar.isPresent()){
+            pacienteRepository.save(paciente);
+        } else {
+            throw new ResourceNotFoundException("Error. No existe el ID= "+paciente.getId()+" asociado a un paciente en la base de datos.");
+        }
+
     }
     public List<Paciente> buscarPacientes(){
         LOGGER.info("Mostrando los pacientes registrados");
         return pacienteRepository.findAll();
     }
-
-    public Optional<Paciente> buscarPacientePorCorreo(String correo){
+    public Optional<Paciente> buscarPacientePorCorreo(String correo) throws ResourceNotFoundException {
         LOGGER.info("Se ha buscado un paciente con correo: " +  correo);
-        return pacienteRepository.findByEmail(correo);
+        Optional<Paciente> pacienteABuscar = pacienteRepository.findByEmail(correo);
+        if(pacienteABuscar.isPresent()){
+            return pacienteABuscar;
+        }else{
+            throw new ResourceNotFoundException("Error. No existe el paciente con correo "+ correo +" en la base de datos.");
+        }
+
     }
 
 

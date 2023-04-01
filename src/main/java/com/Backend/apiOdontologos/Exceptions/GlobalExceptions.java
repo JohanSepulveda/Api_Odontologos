@@ -1,4 +1,4 @@
-package com.Backend.api_odontologos.Exceptions;
+package com.Backend.apiOdontologos.Exceptions;
 
 import org.apache.log4j.Logger;
 import org.springframework.http.HttpStatus;

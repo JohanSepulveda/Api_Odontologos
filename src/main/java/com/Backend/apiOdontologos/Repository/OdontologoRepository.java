@@ -1,6 +1,6 @@
-package com.Backend.api_odontologos.Repository;
+package com.Backend.apiOdontologos.Repository;
 
-import com.Backend.api_odontologos.Model.Odontologo;
+import com.Backend.apiOdontologos.Model.Odontologo;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface OdontologoRepository extends JpaRepository<Odontologo,Long> {

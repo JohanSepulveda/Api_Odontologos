@@ -1,4 +1,4 @@
-package com.Backend.api_odontologos.Model;
+package com.Backend.apiOdontologos.Model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
